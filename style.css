@@ -1,0 +1,144 @@
+body{
+    height: 2500px;
+    background-color: black;
+    margin: 0
+}
+.top-nav{
+    align-items: center;
+    position: relative;
+}
+.header{
+    padding-bottom: 20px;
+}
+.top-nav .header h1{
+    margin: 0;
+    margin-top: 40px;
+    color: #b7b7b7;
+    font-size: 44px;
+    margin-left: 600px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-family: "Playfair Display", serif;
+}
+.top-nav .header h1:hover{
+    color: rgb(251, 86, 86);
+    cursor: pointer;
+}
+.top-nav .header h3{
+    color: #b7b7b7;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    margin-left: 500px;
+    font-family: "Open Sans",sans-serif;
+    margin-top: 1px;
+}
+.top-nav .sub-header{
+    margin-right: 120px;
+    margin-top:22px;
+}
+.top-nav .sub-header .list{
+    display: flex;
+    justify-content:center;
+    font-size: 14px;
+    text-decoration: none;
+    list-style: none;
+}
+.top-nav .sub-header .list li a{
+    padding-left: 40px;
+    text-decoration: none;
+    font-weight: 100;
+    color: white;
+    font-family: "Open Sans",sans-serif;
+    font-size: 14px;
+}
+.top-nav .sub-header .list li a:hover{
+    color: rgb(251, 86, 86);
+    cursor: pointer;
+}
+hr{
+    border: none;
+    border-top: 1px solid rgb(55, 55, 55);
+    width: 1400px;
+}
+.image1{
+    margin-top: 10px;
+    padding-bottom: 20px;
+    width: 1510px;
+}
+.p1{
+    font-size: 21px;
+    color: #7a7a7a;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 130px;
+}
+.p2{
+    font-size: 21px;
+    color: #7a7a7a;
+    font-family: "Roboto",Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.image2{
+    width: 880px;
+    height: 495px;
+    padding-left: 330px;
+    padding-top: 40px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    column-gap: 100px;
+    margin-top: 230px;
+    margin-left: 550px;
+    color: white;
+}
+.icons #icon1{
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 5px;
+}
+.icons #icon2{
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 5px;
+}
+.icons #icon3{
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 5px;
+}
+.icons #icon4{
+    border-radius: 50%;
+    font-size: 25px;
+    padding: 5px;
+}
+.copyright{
+    color: rgb(153, 153, 153);
+    padding: 15px 25px;
+    text-align: center;
+    margin-top: 200px;
+    font-size: 13.5px;
+    font-family: "Open sans",sans-serif;
+    font-weight: 400;
+
+}
+.white1{
+    color: white;
+}
+.white1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: red;
+}
+.red-line{
+    height: 1px;
+    width: 45px;
+    background-color: rgb(251, 86, 86);
+    position: absolute;
+    left: 405px;
+    top: 119px;
+}
